@@ -1,0 +1,154 @@
+<!--
+    Name: Yilei Shen
+    File name: project.html
+    Date Created: 2024-07-01
+    Description: assignment 1 for portfolio
+    -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <script src="js/portfolio.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <ul class="top-nav">
+                <li class="nav-item"><a class="active" href="resume.html">Resume</a></li>
+                <li class="nav-item"><a href="project.html">Portfolio</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+                <li class="nav-item"><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5 Data:May, 2024</div>
+            <img src="images/project1.jpg" alt="hometown-suzhou">
+            <div class="text">
+                <h2>Project 1: Hometown Information Display Webpage</h2>
+                <p>
+                    This project is a comprehensive webpage designed to showcase various aspects of my hometown.
+                    The webpage provides visitors with detailed information about local attractions, historical sites,
+                    and cultural events.
+                    It features an intuitive layout that combines text, images, and interactive elements to create an
+                    engaging user experience.
+                </p>
+                <p>Technologies Used:</p>
+                <ul>
+                    <li>HTML: For structuring the content and creating the layout of the webpage.</li>
+                    <li>CSS: For styling the webpage and ensuring a visually appealing design.</li>
+                    <li>JavaScript: For adding interactive features such as image slideshows and dynamic content
+                        updates.</li>
+                </ul>               
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5 Data:June, 2024</div>
+            <img src="images/project2.jpg" alt="payment interface">
+            <div class="text">
+                <h2>Project 2: Credit Card Payment Form</h2>
+                <p>This project was a simple bank credit card payment
+                    form interface using only HTML and CSS. The form captures essential payment information,
+                    including the cardholder's name, card number, expiration date, and security code.
+                    The focus was on creating a clean, user-friendly design with basic form layout and styling.
+                </p>
+                <p>Technologies Used:</p>
+                <ul>
+                    <li>HTML: For creating the form structure.</li>
+                    <li>CSS: For styling the form and ensuring a responsive design.</li>
+                </ul>    
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5 Data:June, 2024</div>
+            <img src="images/project3.jpg" alt="flexbox lab">
+            <div class="text">
+                <h2>Project 3: Flexbox Lab Page Design</h2>
+                <p>
+                    This project involved designing a page using Flexbox for layout.
+                    The goal was to create a responsive and visually appealing page that
+                    organizes content efficiently. All arranged using Flexbox to achieve a flexible
+                    and adaptive layout that works across different screen sizes.
+                </p>
+                <p>Technologies Used:</p>
+                <ul>
+                    <li>HTML: For structuring the content of the page.</li>
+                    <li>
+                        CSS: For layout and design, making use of Flexbox to create a responsive and flexible layout.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5 Data:July, 2024</div>
+            <img src="images/project4.jpg" alt="get jokes">
+            <div class="text">
+                <h2>Project 4: Joke Generator Page</h2>
+                <p>
+                    This project involved creating a webpage that generates a random joke every time
+                    a button is clicked. The main feature of the page is a button that, when pressed,
+                    uses JavaScript to manipulate the DOM and fetch a new joke from an array of pre-defined jokes.
+                    This project demonstrates basic JavaScript skills, including DOM manipulation and event handling,
+                    to create a dynamic and interactive user experience.
+                </p>
+                <p>Technologies Used:</p>
+                <ul>
+                    <li>HTML: For structuring the page layout.</li>
+                    <li>CSS: For styling the page.</li>
+                    <li>JavaScript: For event handling,and joke generation logic.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5 Data:June, 2024</div>
+            <img src="images/project5.jpg" alt="Extracurricular Activities">
+            <div class="text">
+                <h2>Project 5: Extracurricular Activities Management System</h2>
+                <p>
+                    This project focused on developing a management system for extracurricular activities
+                    using Microsoft Access for the front-end interface and SQL Server for the database.
+                    The system allows users to search for information on various activities and manage records
+                    by adding or deleting entries directly through the user-friendly interface.
+                </p>
+                <p>Technologies Used:</p>
+                <ul>
+                    <li>Access: For designing the front-end interface.</li>
+                    <li>SQL Server: For database management and storage.</li>
+                    <li>SQL: For querying and managing data within SQL server.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <div class="data1">
+        <p>
+            "My lifestyle blends the rigor of academic study with the joy of pursuing diverse hobbies".
+        </p>
+    </div>
+
+    <footer>
+        <p>© 2024 Yilei Shen. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
